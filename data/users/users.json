@@ -1,0 +1,175 @@
+[
+  {
+    "id": "1",
+    "email": "admin@knstore.com",
+    "password": "a36aef5a11c4073fbe60314fc9df530a9d5f986533594d1f5190742ff9e0e408",
+    "name": "Carlos",
+    "last_name": "Ramirez",
+    "role": "ADMIN",
+    "active": "1",
+    "created_at": "2026-03-26 20:58:50",
+    "updated_at": "2026-03-26 20:58:50",
+    "addresses": []
+  },
+  {
+    "id": "2",
+    "email": "mgr.lopez@knstore.com",
+    "password": "24f9c525102748b0e216e90293937cf0097db13ee2b64c4079e512584d355ac4",
+    "name": "Andrea",
+    "last_name": "Lopez",
+    "role": "MANAGER",
+    "active": "1",
+    "created_at": "2026-03-26 20:58:50",
+    "updated_at": "2026-03-26 20:58:50",
+    "addresses": []
+  },
+  {
+    "id": "3",
+    "email": "mgr.torres@knstore.com",
+    "password": "c2c82a30d0b3504820fbf75506c85519522d91b264e5584278dee257ed576aa2",
+    "name": "Felipe",
+    "last_name": "Torres",
+    "role": "MANAGER",
+    "active": "1",
+    "created_at": "2026-03-26 20:58:50",
+    "updated_at": "2026-03-26 20:58:50",
+    "addresses": []
+  },
+  {
+    "id": "4",
+    "email": "juan.perez@gmail.com",
+    "password": "c6b5665cc0ff9d462cff0ed07ebec248325a48898e53fcfc45fb0743e606d17e",
+    "name": "Juan",
+    "last_name": "Perez",
+    "role": "CLIENT",
+    "active": "1",
+    "created_at": "2026-03-26 20:58:50",
+    "updated_at": "2026-03-26 20:58:50",
+    "addresses": [
+      {
+        "id": "1",
+        "street": "Calle 100",
+        "number": "15-30",
+        "city": "Bogota",
+        "postal_code": "110111",
+        "is_default": "1",
+        "created_at": "2026-03-26 20:58:50"
+      },
+      {
+        "id": "2",
+        "street": "Carrera 7",
+        "number": "45-12",
+        "city": "Bogota",
+        "postal_code": "110231",
+        "is_default": "0",
+        "created_at": "2026-03-26 20:58:50"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "email": "maria.gomez@gmail.com",
+    "password": "63f3f3d1aa9a7dc73b585e3dc7980be5c67f61351596441b93b86b91a77e6639",
+    "name": "Maria",
+    "last_name": "Gomez",
+    "role": "CLIENT",
+    "active": "1",
+    "created_at": "2026-03-26 20:58:50",
+    "updated_at": "2026-03-26 20:58:50",
+    "addresses": [
+      {
+        "id": "3",
+        "street": "Avenida El Dorado",
+        "number": "68B-35",
+        "city": "Bogota",
+        "postal_code": "110321",
+        "is_default": "1",
+        "created_at": "2026-03-26 20:58:50"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "email": "pedro.diaz@hotmail.com",
+    "password": "8cdd38d1209d8d7883012753cfc45e11a48927c708e3a8a26bbe9543eda360a7",
+    "name": "Pedro",
+    "last_name": "Diaz",
+    "role": "CLIENT",
+    "active": "1",
+    "created_at": "2026-03-26 20:58:50",
+    "updated_at": "2026-03-26 20:58:50",
+    "addresses": [
+      {
+        "id": "4",
+        "street": "Calle 80",
+        "number": "22-10",
+        "city": "Medellin",
+        "postal_code": "050021",
+        "is_default": "1",
+        "created_at": "2026-03-26 20:58:50"
+      },
+      {
+        "id": "5",
+        "street": "Carrera 43A",
+        "number": "1S-50",
+        "city": "Medellin",
+        "postal_code": "050022",
+        "is_default": "0",
+        "created_at": "2026-03-26 20:58:50"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "email": "lucia.santos@yahoo.com",
+    "password": "7468199a68f65cc70515b9fa2a95a7bcedb03e0f1cf47fd52e78e0f014303818",
+    "name": "Lucia",
+    "last_name": "Santos",
+    "role": "CLIENT",
+    "active": "1",
+    "created_at": "2026-03-26 20:58:50",
+    "updated_at": "2026-03-26 20:58:50",
+    "addresses": [
+      {
+        "id": "6",
+        "street": "Avenida 6N",
+        "number": "23N-45",
+        "city": "Cali",
+        "postal_code": "760001",
+        "is_default": "1",
+        "created_at": "2026-03-26 20:58:50"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "email": "andres.ruiz@gmail.com",
+    "password": "867c752502de76891624c19b471cba8f923359429833e7d59b27460617af80ba",
+    "name": "Andres",
+    "last_name": "Ruiz",
+    "role": "CLIENT",
+    "active": "1",
+    "created_at": "2026-03-26 20:58:50",
+    "updated_at": "2026-03-26 20:58:50",
+    "addresses": [
+      {
+        "id": "7",
+        "street": "Calle 19",
+        "number": "4-88",
+        "city": "Bucaramanga",
+        "postal_code": "680001",
+        "is_default": "1",
+        "created_at": "2026-03-26 20:58:50"
+      },
+      {
+        "id": "8",
+        "street": "Carrera 33",
+        "number": "52-10",
+        "city": "Bucaramanga",
+        "postal_code": "680003",
+        "is_default": "0",
+        "created_at": "2026-03-26 20:58:50"
+      }
+    ]
+  }
+]
