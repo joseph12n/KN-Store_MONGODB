@@ -4,8 +4,8 @@
     "user_id": "4",
     "order_date": "2026-01-15 10:30:00",
     "status": "DELIVERED",
-    "total": "6187000.00",
-    "updated_at": "2026-03-26 20:58:50",
+    "total": "1218000.00",
+    "updated_at": "2026-03-28 00:00:00",
     "shipping_address": {
       "id": "1",
       "user_id": "4",
@@ -14,43 +14,37 @@
       "city": "Bogota",
       "postal_code": "110111",
       "is_default": "1",
-      "created_at": "2026-03-26 20:58:50"
+      "created_at": "2026-03-28 00:00:00"
     },
     "items": [
       {
         "id": "1",
-        "product_id": "1",
+        "product_id": "5",
         "quantity": "1",
-        "unit_price": "4999000.00"
+        "unit_price": "699000.00"
       },
       {
         "id": "2",
-        "product_id": "4",
+        "product_id": "2",
         "quantity": "1",
-        "unit_price": "999000.00"
-      },
-      {
-        "id": "3",
-        "product_id": "7",
-        "quantity": "1",
-        "unit_price": "189000.00"
+        "unit_price": "519000.00"
       }
     ],
     "payment": {
       "id": "1",
       "order_id": "1",
-      "amount": "6187000.00",
+      "amount": "1218000.00",
       "method": "Tarjeta Credito",
       "status": "COMPLETED",
       "paid_at": "2026-01-15 10:35:00",
-      "created_at": "2026-03-26 20:58:50"
+      "created_at": "2026-03-28 00:00:00"
     },
     "bill": {
       "id": "1",
       "order_id": "1",
       "reference": "FAC-2026-00001",
-      "total": "6187000.00",
-      "created_at": "2026-03-26 20:58:50"
+      "total": "1218000.00",
+      "created_at": "2026-03-28 00:00:00"
     },
     "shipment": {
       "id": "1",
@@ -60,7 +54,7 @@
       "status": "DELIVERED",
       "shipped_at": "2026-01-16 08:00:00",
       "delivered_at": "2026-01-19 14:30:00",
-      "created_at": "2026-03-26 20:58:50"
+      "created_at": "2026-03-28 00:00:00"
     }
   },
   {
@@ -68,8 +62,8 @@
     "user_id": "5",
     "order_date": "2026-02-20 14:15:00",
     "status": "SHIPPED",
-    "total": "1747000.00",
-    "updated_at": "2026-03-26 20:58:50",
+    "total": "1208000.00",
+    "updated_at": "2026-03-28 00:00:00",
     "shipping_address": {
       "id": "3",
       "user_id": "5",
@@ -78,43 +72,37 @@
       "city": "Bogota",
       "postal_code": "110321",
       "is_default": "1",
-      "created_at": "2026-03-26 20:58:50"
+      "created_at": "2026-03-28 00:00:00"
     },
     "items": [
       {
+        "id": "3",
+        "product_id": "19",
+        "quantity": "1",
+        "unit_price": "589000.00"
+      },
+      {
         "id": "4",
-        "product_id": "5",
+        "product_id": "23",
         "quantity": "1",
-        "unit_price": "1499000.00"
-      },
-      {
-        "id": "5",
-        "product_id": "11",
-        "quantity": "1",
-        "unit_price": "129000.00"
-      },
-      {
-        "id": "6",
-        "product_id": "14",
-        "quantity": "1",
-        "unit_price": "119000.00"
+        "unit_price": "619000.00"
       }
     ],
     "payment": {
       "id": "2",
       "order_id": "2",
-      "amount": "1747000.00",
+      "amount": "1208000.00",
       "method": "PSE",
       "status": "COMPLETED",
       "paid_at": "2026-02-20 14:20:00",
-      "created_at": "2026-03-26 20:58:50"
+      "created_at": "2026-03-28 00:00:00"
     },
     "bill": {
       "id": "2",
       "order_id": "2",
       "reference": "FAC-2026-00002",
-      "total": "1747000.00",
-      "created_at": "2026-03-26 20:58:50"
+      "total": "1208000.00",
+      "created_at": "2026-03-28 00:00:00"
     },
     "shipment": {
       "id": "2",
@@ -124,7 +112,7 @@
       "status": "SHIPPED",
       "shipped_at": "2026-02-21 10:00:00",
       "delivered_at": null,
-      "created_at": "2026-03-26 20:58:50"
+      "created_at": "2026-03-28 00:00:00"
     }
   },
   {
@@ -132,8 +120,8 @@
     "user_id": "6",
     "order_date": "2026-03-01 09:00:00",
     "status": "CONFIRMED",
-    "total": "474000.00",
-    "updated_at": "2026-03-26 20:58:50",
+    "total": "1346000.00",
+    "updated_at": "2026-03-28 00:00:00",
     "shipping_address": {
       "id": "4",
       "user_id": "6",
@@ -142,43 +130,43 @@
       "city": "Medellin",
       "postal_code": "050021",
       "is_default": "1",
-      "created_at": "2026-03-26 20:58:50"
+      "created_at": "2026-03-28 00:00:00"
     },
     "items": [
       {
-        "id": "7",
-        "product_id": "10",
-        "quantity": "3",
-        "unit_price": "59000.00"
-      },
-      {
-        "id": "8",
+        "id": "5",
         "product_id": "13",
         "quantity": "1",
-        "unit_price": "159000.00"
+        "unit_price": "329000.00"
       },
       {
-        "id": "9",
-        "product_id": "25",
+        "id": "6",
+        "product_id": "15",
         "quantity": "2",
-        "unit_price": "69000.00"
+        "unit_price": "279000.00"
+      },
+      {
+        "id": "7",
+        "product_id": "11",
+        "quantity": "1",
+        "unit_price": "459000.00"
       }
     ],
     "payment": {
       "id": "3",
       "order_id": "3",
-      "amount": "474000.00",
+      "amount": "1346000.00",
       "method": "Nequi",
       "status": "COMPLETED",
       "paid_at": "2026-03-01 09:10:00",
-      "created_at": "2026-03-26 20:58:50"
+      "created_at": "2026-03-28 00:00:00"
     },
     "bill": {
       "id": "3",
       "order_id": "3",
       "reference": "FAC-2026-00003",
-      "total": "474000.00",
-      "created_at": "2026-03-26 20:58:50"
+      "total": "1346000.00",
+      "created_at": "2026-03-28 00:00:00"
     },
     "shipment": {
       "id": "3",
@@ -188,7 +176,7 @@
       "status": "PENDING",
       "shipped_at": null,
       "delivered_at": null,
-      "created_at": "2026-03-26 20:58:50"
+      "created_at": "2026-03-28 00:00:00"
     }
   },
   {
@@ -196,8 +184,8 @@
     "user_id": "7",
     "order_date": "2026-03-10 16:45:00",
     "status": "PENDING",
-    "total": "848000.00",
-    "updated_at": "2026-03-26 20:58:50",
+    "total": "1218000.00",
+    "updated_at": "2026-03-28 00:00:00",
     "shipping_address": {
       "id": "6",
       "user_id": "7",
@@ -206,30 +194,30 @@
       "city": "Cali",
       "postal_code": "760001",
       "is_default": "1",
-      "created_at": "2026-03-26 20:58:50"
+      "created_at": "2026-03-28 00:00:00"
     },
     "items": [
       {
-        "id": "10",
-        "product_id": "16",
+        "id": "8",
+        "product_id": "8",
         "quantity": "1",
-        "unit_price": "459000.00"
+        "unit_price": "649000.00"
       },
       {
-        "id": "11",
-        "product_id": "17",
+        "id": "9",
+        "product_id": "9",
         "quantity": "1",
-        "unit_price": "389000.00"
+        "unit_price": "569000.00"
       }
     ],
     "payment": {
       "id": "4",
       "order_id": "4",
-      "amount": "848000.00",
+      "amount": "1218000.00",
       "method": "Tarjeta Debito",
       "status": "PENDING",
       "paid_at": null,
-      "created_at": "2026-03-26 20:58:50"
+      "created_at": "2026-03-28 00:00:00"
     },
     "bill": null,
     "shipment": null
@@ -239,8 +227,8 @@
     "user_id": "8",
     "order_date": "2026-03-25 20:00:00",
     "status": "CART",
-    "total": "378000.00",
-    "updated_at": "2026-03-26 20:58:50",
+    "total": "978000.00",
+    "updated_at": "2026-03-28 00:00:00",
     "shipping_address": {
       "id": "7",
       "user_id": "8",
@@ -249,20 +237,20 @@
       "city": "Bucaramanga",
       "postal_code": "680001",
       "is_default": "1",
-      "created_at": "2026-03-26 20:58:50"
+      "created_at": "2026-03-28 00:00:00"
     },
     "items": [
       {
-        "id": "12",
-        "product_id": "20",
+        "id": "10",
+        "product_id": "18",
         "quantity": "1",
-        "unit_price": "89000.00"
+        "unit_price": "479000.00"
       },
       {
-        "id": "13",
+        "id": "11",
         "product_id": "24",
         "quantity": "1",
-        "unit_price": "289000.00"
+        "unit_price": "499000.00"
       }
     ],
     "payment": null,
@@ -274,8 +262,8 @@
     "user_id": "4",
     "order_date": "2026-02-05 11:00:00",
     "status": "CANCELLED",
-    "total": "459000.00",
-    "updated_at": "2026-03-26 20:58:50",
+    "total": "489000.00",
+    "updated_at": "2026-03-28 00:00:00",
     "shipping_address": {
       "id": "2",
       "user_id": "4",
@@ -284,24 +272,24 @@
       "city": "Bogota",
       "postal_code": "110231",
       "is_default": "0",
-      "created_at": "2026-03-26 20:58:50"
+      "created_at": "2026-03-28 00:00:00"
     },
     "items": [
       {
-        "id": "14",
-        "product_id": "16",
+        "id": "12",
+        "product_id": "1",
         "quantity": "1",
-        "unit_price": "459000.00"
+        "unit_price": "489000.00"
       }
     ],
     "payment": {
       "id": "5",
       "order_id": "6",
-      "amount": "459000.00",
+      "amount": "489000.00",
       "method": "Tarjeta Credito",
       "status": "REFUNDED",
       "paid_at": "2026-02-06 09:00:00",
-      "created_at": "2026-03-26 20:58:50"
+      "created_at": "2026-03-28 00:00:00"
     },
     "bill": null,
     "shipment": null
@@ -311,8 +299,8 @@
     "user_id": "6",
     "order_date": "2026-01-28 08:30:00",
     "status": "DELIVERED",
-    "total": "448000.00",
-    "updated_at": "2026-03-26 20:58:50",
+    "total": "848000.00",
+    "updated_at": "2026-03-28 00:00:00",
     "shipping_address": {
       "id": "5",
       "user_id": "6",
@@ -321,37 +309,37 @@
       "city": "Medellin",
       "postal_code": "050022",
       "is_default": "0",
-      "created_at": "2026-03-26 20:58:50"
+      "created_at": "2026-03-28 00:00:00"
     },
     "items": [
       {
-        "id": "15",
-        "product_id": "18",
+        "id": "13",
+        "product_id": "12",
         "quantity": "1",
-        "unit_price": "329000.00"
+        "unit_price": "389000.00"
       },
       {
-        "id": "16",
-        "product_id": "27",
+        "id": "14",
+        "product_id": "7",
         "quantity": "1",
-        "unit_price": "119000.00"
+        "unit_price": "459000.00"
       }
     ],
     "payment": {
       "id": "6",
       "order_id": "7",
-      "amount": "448000.00",
+      "amount": "848000.00",
       "method": "Contra Entrega",
       "status": "COMPLETED",
       "paid_at": "2026-01-30 14:00:00",
-      "created_at": "2026-03-26 20:58:50"
+      "created_at": "2026-03-28 00:00:00"
     },
     "bill": {
       "id": "4",
       "order_id": "7",
       "reference": "FAC-2026-00004",
-      "total": "448000.00",
-      "created_at": "2026-03-26 20:58:50"
+      "total": "848000.00",
+      "created_at": "2026-03-28 00:00:00"
     },
     "shipment": {
       "id": "4",
@@ -361,7 +349,7 @@
       "status": "DELIVERED",
       "shipped_at": "2026-01-29 09:00:00",
       "delivered_at": "2026-01-30 14:00:00",
-      "created_at": "2026-03-26 20:58:50"
+      "created_at": "2026-03-28 00:00:00"
     }
   }
 ]

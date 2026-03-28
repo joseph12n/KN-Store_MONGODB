@@ -7,8 +7,8 @@
     "last_name": "Ramirez",
     "role": "ADMIN",
     "active": "1",
-    "created_at": "2026-03-26 20:58:50",
-    "updated_at": "2026-03-26 20:58:50",
+    "created_at": "2026-03-28 00:00:00",
+    "updated_at": "2026-03-28 00:00:00",
     "addresses": []
   },
   {
@@ -19,8 +19,8 @@
     "last_name": "Lopez",
     "role": "MANAGER",
     "active": "1",
-    "created_at": "2026-03-26 20:58:50",
-    "updated_at": "2026-03-26 20:58:50",
+    "created_at": "2026-03-28 00:00:00",
+    "updated_at": "2026-03-28 00:00:00",
     "addresses": []
   },
   {
@@ -31,8 +31,8 @@
     "last_name": "Torres",
     "role": "MANAGER",
     "active": "1",
-    "created_at": "2026-03-26 20:58:50",
-    "updated_at": "2026-03-26 20:58:50",
+    "created_at": "2026-03-28 00:00:00",
+    "updated_at": "2026-03-28 00:00:00",
     "addresses": []
   },
   {
@@ -43,8 +43,8 @@
     "last_name": "Perez",
     "role": "CLIENT",
     "active": "1",
-    "created_at": "2026-03-26 20:58:50",
-    "updated_at": "2026-03-26 20:58:50",
+    "created_at": "2026-03-28 00:00:00",
+    "updated_at": "2026-03-28 00:00:00",
     "addresses": [
       {
         "id": "1",
@@ -53,7 +53,7 @@
         "city": "Bogota",
         "postal_code": "110111",
         "is_default": "1",
-        "created_at": "2026-03-26 20:58:50"
+        "created_at": "2026-03-28 00:00:00"
       },
       {
         "id": "2",
@@ -62,7 +62,7 @@
         "city": "Bogota",
         "postal_code": "110231",
         "is_default": "0",
-        "created_at": "2026-03-26 20:58:50"
+        "created_at": "2026-03-28 00:00:00"
       }
     ]
   },
@@ -74,8 +74,8 @@
     "last_name": "Gomez",
     "role": "CLIENT",
     "active": "1",
-    "created_at": "2026-03-26 20:58:50",
-    "updated_at": "2026-03-26 20:58:50",
+    "created_at": "2026-03-28 00:00:00",
+    "updated_at": "2026-03-28 00:00:00",
     "addresses": [
       {
         "id": "3",
@@ -84,7 +84,7 @@
         "city": "Bogota",
         "postal_code": "110321",
         "is_default": "1",
-        "created_at": "2026-03-26 20:58:50"
+        "created_at": "2026-03-28 00:00:00"
       }
     ]
   },
@@ -96,8 +96,8 @@
     "last_name": "Diaz",
     "role": "CLIENT",
     "active": "1",
-    "created_at": "2026-03-26 20:58:50",
-    "updated_at": "2026-03-26 20:58:50",
+    "created_at": "2026-03-28 00:00:00",
+    "updated_at": "2026-03-28 00:00:00",
     "addresses": [
       {
         "id": "4",
@@ -106,7 +106,7 @@
         "city": "Medellin",
         "postal_code": "050021",
         "is_default": "1",
-        "created_at": "2026-03-26 20:58:50"
+        "created_at": "2026-03-28 00:00:00"
       },
       {
         "id": "5",
@@ -115,7 +115,7 @@
         "city": "Medellin",
         "postal_code": "050022",
         "is_default": "0",
-        "created_at": "2026-03-26 20:58:50"
+        "created_at": "2026-03-28 00:00:00"
       }
     ]
   },
@@ -127,8 +127,8 @@
     "last_name": "Santos",
     "role": "CLIENT",
     "active": "1",
-    "created_at": "2026-03-26 20:58:50",
-    "updated_at": "2026-03-26 20:58:50",
+    "created_at": "2026-03-28 00:00:00",
+    "updated_at": "2026-03-28 00:00:00",
     "addresses": [
       {
         "id": "6",
@@ -137,7 +137,7 @@
         "city": "Cali",
         "postal_code": "760001",
         "is_default": "1",
-        "created_at": "2026-03-26 20:58:50"
+        "created_at": "2026-03-28 00:00:00"
       }
     ]
   },
@@ -149,8 +149,8 @@
     "last_name": "Ruiz",
     "role": "CLIENT",
     "active": "1",
-    "created_at": "2026-03-26 20:58:50",
-    "updated_at": "2026-03-26 20:58:50",
+    "created_at": "2026-03-28 00:00:00",
+    "updated_at": "2026-03-28 00:00:00",
     "addresses": [
       {
         "id": "7",
@@ -159,7 +159,7 @@
         "city": "Bucaramanga",
         "postal_code": "680001",
         "is_default": "1",
-        "created_at": "2026-03-26 20:58:50"
+        "created_at": "2026-03-28 00:00:00"
       },
       {
         "id": "8",
@@ -168,7 +168,7 @@
         "city": "Bucaramanga",
         "postal_code": "680003",
         "is_default": "0",
-        "created_at": "2026-03-26 20:58:50"
+        "created_at": "2026-03-28 00:00:00"
       }
     ]
   }

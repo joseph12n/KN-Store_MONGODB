@@ -3,136 +3,128 @@
 {"type":"database","name":"kn_store_test"},
 {"type":"table","name":"address","database":"kn_store_test","data":
 [
-{"id":"1","user_id":"4","street":"Calle 100","number":"15-30","city":"Bogota","postal_code":"110111","is_default":"1","created_at":"2026-03-26 20:58:50"},
-{"id":"2","user_id":"4","street":"Carrera 7","number":"45-12","city":"Bogota","postal_code":"110231","is_default":"0","created_at":"2026-03-26 20:58:50"},
-{"id":"3","user_id":"5","street":"Avenida El Dorado","number":"68B-35","city":"Bogota","postal_code":"110321","is_default":"1","created_at":"2026-03-26 20:58:50"},
-{"id":"4","user_id":"6","street":"Calle 80","number":"22-10","city":"Medellin","postal_code":"050021","is_default":"1","created_at":"2026-03-26 20:58:50"},
-{"id":"5","user_id":"6","street":"Carrera 43A","number":"1S-50","city":"Medellin","postal_code":"050022","is_default":"0","created_at":"2026-03-26 20:58:50"},
-{"id":"6","user_id":"7","street":"Avenida 6N","number":"23N-45","city":"Cali","postal_code":"760001","is_default":"1","created_at":"2026-03-26 20:58:50"},
-{"id":"7","user_id":"8","street":"Calle 19","number":"4-88","city":"Bucaramanga","postal_code":"680001","is_default":"1","created_at":"2026-03-26 20:58:50"},
-{"id":"8","user_id":"8","street":"Carrera 33","number":"52-10","city":"Bucaramanga","postal_code":"680003","is_default":"0","created_at":"2026-03-26 20:58:50"}
+{"id":"1","user_id":"4","street":"Calle 100","number":"15-30","city":"Bogota","postal_code":"110111","is_default":"1","created_at":"2026-03-28 00:00:00"},
+{"id":"2","user_id":"4","street":"Carrera 7","number":"45-12","city":"Bogota","postal_code":"110231","is_default":"0","created_at":"2026-03-28 00:00:00"},
+{"id":"3","user_id":"5","street":"Avenida El Dorado","number":"68B-35","city":"Bogota","postal_code":"110321","is_default":"1","created_at":"2026-03-28 00:00:00"},
+{"id":"4","user_id":"6","street":"Calle 80","number":"22-10","city":"Medellin","postal_code":"050021","is_default":"1","created_at":"2026-03-28 00:00:00"},
+{"id":"5","user_id":"6","street":"Carrera 43A","number":"1S-50","city":"Medellin","postal_code":"050022","is_default":"0","created_at":"2026-03-28 00:00:00"},
+{"id":"6","user_id":"7","street":"Avenida 6N","number":"23N-45","city":"Cali","postal_code":"760001","is_default":"1","created_at":"2026-03-28 00:00:00"},
+{"id":"7","user_id":"8","street":"Calle 19","number":"4-88","city":"Bucaramanga","postal_code":"680001","is_default":"1","created_at":"2026-03-28 00:00:00"},
+{"id":"8","user_id":"8","street":"Carrera 33","number":"52-10","city":"Bucaramanga","postal_code":"680003","is_default":"0","created_at":"2026-03-28 00:00:00"}
 ]
 }
 ,{"type":"table","name":"bill","database":"kn_store_test","data":
 [
-{"id":"1","order_id":"1","reference":"FAC-2026-00001","total":"6187000.00","created_at":"2026-03-26 20:58:50"},
-{"id":"2","order_id":"2","reference":"FAC-2026-00002","total":"1747000.00","created_at":"2026-03-26 20:58:50"},
-{"id":"3","order_id":"3","reference":"FAC-2026-00003","total":"474000.00","created_at":"2026-03-26 20:58:50"},
-{"id":"4","order_id":"7","reference":"FAC-2026-00004","total":"448000.00","created_at":"2026-03-26 20:58:50"}
+{"id":"1","order_id":"1","reference":"FAC-2026-00001","total":"1218000.00","created_at":"2026-03-28 00:00:00"},
+{"id":"2","order_id":"2","reference":"FAC-2026-00002","total":"1208000.00","created_at":"2026-03-28 00:00:00"},
+{"id":"3","order_id":"3","reference":"FAC-2026-00003","total":"1346000.00","created_at":"2026-03-28 00:00:00"},
+{"id":"4","order_id":"7","reference":"FAC-2026-00004","total":"848000.00","created_at":"2026-03-28 00:00:00"}
 ]
 }
 ,{"type":"table","name":"category","database":"kn_store_test","data":
 [
-{"id":"1","name":"Electronica","description":"Dispositivos y accesorios electronicos","active":"1","created_at":"2026-03-26 20:58:50"},
-{"id":"2","name":"Ropa","description":"Prendas de vestir y accesorios de moda","active":"1","created_at":"2026-03-26 20:58:50"},
-{"id":"3","name":"Hogar","description":"Articulos para el hogar y decoracion","active":"1","created_at":"2026-03-26 20:58:50"},
-{"id":"4","name":"Deportes","description":"Equipamiento y ropa deportiva","active":"1","created_at":"2026-03-26 20:58:50"}
+{"id":"1","name":"Calzado Deportivo","description":"Calzado tecnico de alto rendimiento para practica deportiva","active":"1","created_at":"2026-03-28 00:00:00"},
+{"id":"2","name":"Calzado Casual","description":"Zapatillas de estilo urbano y uso cotidiano","active":"1","created_at":"2026-03-28 00:00:00"},
+{"id":"3","name":"Calzado Outdoor","description":"Calzado para actividades al aire libre y terrenos irregulares","active":"1","created_at":"2026-03-28 00:00:00"}
 ]
 }
 ,{"type":"table","name":"orders","database":"kn_store_test","data":
 [
-{"id":"1","user_id":"4","address_id":"1","order_date":"2026-01-15 10:30:00","status":"DELIVERED","total":"6187000.00","updated_at":"2026-03-26 20:58:50"},
-{"id":"2","user_id":"5","address_id":"3","order_date":"2026-02-20 14:15:00","status":"SHIPPED","total":"1747000.00","updated_at":"2026-03-26 20:58:50"},
-{"id":"3","user_id":"6","address_id":"4","order_date":"2026-03-01 09:00:00","status":"CONFIRMED","total":"474000.00","updated_at":"2026-03-26 20:58:50"},
-{"id":"4","user_id":"7","address_id":"6","order_date":"2026-03-10 16:45:00","status":"PENDING","total":"848000.00","updated_at":"2026-03-26 20:58:50"},
-{"id":"5","user_id":"8","address_id":"7","order_date":"2026-03-25 20:00:00","status":"CART","total":"378000.00","updated_at":"2026-03-26 20:58:50"},
-{"id":"6","user_id":"4","address_id":"2","order_date":"2026-02-05 11:00:00","status":"CANCELLED","total":"459000.00","updated_at":"2026-03-26 20:58:50"},
-{"id":"7","user_id":"6","address_id":"5","order_date":"2026-01-28 08:30:00","status":"DELIVERED","total":"448000.00","updated_at":"2026-03-26 20:58:50"}
+{"id":"1","user_id":"4","address_id":"1","order_date":"2026-01-15 10:30:00","status":"DELIVERED","total":"1218000.00","updated_at":"2026-03-28 00:00:00"},
+{"id":"2","user_id":"5","address_id":"3","order_date":"2026-02-20 14:15:00","status":"SHIPPED","total":"1208000.00","updated_at":"2026-03-28 00:00:00"},
+{"id":"3","user_id":"6","address_id":"4","order_date":"2026-03-01 09:00:00","status":"CONFIRMED","total":"1346000.00","updated_at":"2026-03-28 00:00:00"},
+{"id":"4","user_id":"7","address_id":"6","order_date":"2026-03-10 16:45:00","status":"PENDING","total":"1218000.00","updated_at":"2026-03-28 00:00:00"},
+{"id":"5","user_id":"8","address_id":"7","order_date":"2026-03-25 20:00:00","status":"CART","total":"978000.00","updated_at":"2026-03-28 00:00:00"},
+{"id":"6","user_id":"4","address_id":"2","order_date":"2026-02-05 11:00:00","status":"CANCELLED","total":"489000.00","updated_at":"2026-03-28 00:00:00"},
+{"id":"7","user_id":"6","address_id":"5","order_date":"2026-01-28 08:30:00","status":"DELIVERED","total":"848000.00","updated_at":"2026-03-28 00:00:00"}
 ]
 }
 ,{"type":"table","name":"order_item","database":"kn_store_test","data":
 [
-{"id":"1","order_id":"1","product_id":"1","quantity":"1","unit_price":"4999000.00"},
-{"id":"2","order_id":"1","product_id":"4","quantity":"1","unit_price":"999000.00"},
-{"id":"3","order_id":"1","product_id":"7","quantity":"1","unit_price":"189000.00"},
-{"id":"4","order_id":"2","product_id":"5","quantity":"1","unit_price":"1499000.00"},
-{"id":"5","order_id":"2","product_id":"11","quantity":"1","unit_price":"129000.00"},
-{"id":"6","order_id":"2","product_id":"14","quantity":"1","unit_price":"119000.00"},
-{"id":"7","order_id":"3","product_id":"10","quantity":"3","unit_price":"59000.00"},
-{"id":"8","order_id":"3","product_id":"13","quantity":"1","unit_price":"159000.00"},
-{"id":"9","order_id":"3","product_id":"25","quantity":"2","unit_price":"69000.00"},
-{"id":"10","order_id":"4","product_id":"16","quantity":"1","unit_price":"459000.00"},
-{"id":"11","order_id":"4","product_id":"17","quantity":"1","unit_price":"389000.00"},
-{"id":"12","order_id":"5","product_id":"20","quantity":"1","unit_price":"89000.00"},
-{"id":"13","order_id":"5","product_id":"24","quantity":"1","unit_price":"289000.00"},
-{"id":"14","order_id":"6","product_id":"16","quantity":"1","unit_price":"459000.00"},
-{"id":"15","order_id":"7","product_id":"18","quantity":"1","unit_price":"329000.00"},
-{"id":"16","order_id":"7","product_id":"27","quantity":"1","unit_price":"119000.00"}
+{"id":"1","order_id":"1","product_id":"5","quantity":"1","unit_price":"699000.00"},
+{"id":"2","order_id":"1","product_id":"2","quantity":"1","unit_price":"519000.00"},
+{"id":"3","order_id":"2","product_id":"19","quantity":"1","unit_price":"589000.00"},
+{"id":"4","order_id":"2","product_id":"23","quantity":"1","unit_price":"619000.00"},
+{"id":"5","order_id":"3","product_id":"13","quantity":"1","unit_price":"329000.00"},
+{"id":"6","order_id":"3","product_id":"15","quantity":"2","unit_price":"279000.00"},
+{"id":"7","order_id":"3","product_id":"11","quantity":"1","unit_price":"459000.00"},
+{"id":"8","order_id":"4","product_id":"8","quantity":"1","unit_price":"649000.00"},
+{"id":"9","order_id":"4","product_id":"9","quantity":"1","unit_price":"569000.00"},
+{"id":"10","order_id":"5","product_id":"18","quantity":"1","unit_price":"479000.00"},
+{"id":"11","order_id":"5","product_id":"24","quantity":"1","unit_price":"499000.00"},
+{"id":"12","order_id":"6","product_id":"1","quantity":"1","unit_price":"489000.00"},
+{"id":"13","order_id":"7","product_id":"12","quantity":"1","unit_price":"389000.00"},
+{"id":"14","order_id":"7","product_id":"7","quantity":"1","unit_price":"459000.00"}
 ]
 }
 ,{"type":"table","name":"payment","database":"kn_store_test","data":
 [
-{"id":"1","order_id":"1","amount":"6187000.00","method":"Tarjeta Credito","status":"COMPLETED","paid_at":"2026-01-15 10:35:00","created_at":"2026-03-26 20:58:50"},
-{"id":"2","order_id":"2","amount":"1747000.00","method":"PSE","status":"COMPLETED","paid_at":"2026-02-20 14:20:00","created_at":"2026-03-26 20:58:50"},
-{"id":"3","order_id":"3","amount":"474000.00","method":"Nequi","status":"COMPLETED","paid_at":"2026-03-01 09:10:00","created_at":"2026-03-26 20:58:50"},
-{"id":"4","order_id":"4","amount":"848000.00","method":"Tarjeta Debito","status":"PENDING","paid_at":null,"created_at":"2026-03-26 20:58:50"},
-{"id":"5","order_id":"6","amount":"459000.00","method":"Tarjeta Credito","status":"REFUNDED","paid_at":"2026-02-06 09:00:00","created_at":"2026-03-26 20:58:50"},
-{"id":"6","order_id":"7","amount":"448000.00","method":"Contra Entrega","status":"COMPLETED","paid_at":"2026-01-30 14:00:00","created_at":"2026-03-26 20:58:50"}
+{"id":"1","order_id":"1","amount":"1218000.00","method":"Tarjeta Credito","status":"COMPLETED","paid_at":"2026-01-15 10:35:00","created_at":"2026-03-28 00:00:00"},
+{"id":"2","order_id":"2","amount":"1208000.00","method":"PSE","status":"COMPLETED","paid_at":"2026-02-20 14:20:00","created_at":"2026-03-28 00:00:00"},
+{"id":"3","order_id":"3","amount":"1346000.00","method":"Nequi","status":"COMPLETED","paid_at":"2026-03-01 09:10:00","created_at":"2026-03-28 00:00:00"},
+{"id":"4","order_id":"4","amount":"1218000.00","method":"Tarjeta Debito","status":"PENDING","paid_at":null,"created_at":"2026-03-28 00:00:00"},
+{"id":"5","order_id":"6","amount":"489000.00","method":"Tarjeta Credito","status":"REFUNDED","paid_at":"2026-02-06 09:00:00","created_at":"2026-03-28 00:00:00"},
+{"id":"6","order_id":"7","amount":"848000.00","method":"Contra Entrega","status":"COMPLETED","paid_at":"2026-01-30 14:00:00","created_at":"2026-03-28 00:00:00"}
 ]
 }
 ,{"type":"table","name":"product","database":"kn_store_test","data":
 [
-{"id":"1","subcategory_id":"1","name":"Galaxy S24 Ultra","price":"4999000.00","size":"6.8\"","stock":"25","brand":"Samsung","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"2","subcategory_id":"1","name":"iPhone 15 Pro Max","price":"5499000.00","size":"6.7\"","stock":"18","brand":"Apple","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"3","subcategory_id":"1","name":"Pixel 8 Pro","price":"3299000.00","size":"6.7\"","stock":"30","brand":"Google","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"4","subcategory_id":"2","name":"AirPods Pro 2","price":"999000.00","size":"Unico","stock":"40","brand":"Apple","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"5","subcategory_id":"2","name":"WH-1000XM5","price":"1499000.00","size":"Unico","stock":"22","brand":"Sony","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"6","subcategory_id":"2","name":"Galaxy Buds FE","price":"349000.00","size":"Unico","stock":"55","brand":"Samsung","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"7","subcategory_id":"3","name":"Cargador USB-C 65W","price":"189000.00","size":"Unico","stock":"100","brand":"Anker","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"8","subcategory_id":"3","name":"Cable Lightning 2m","price":"79000.00","size":"2m","stock":"200","brand":"Apple","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"9","subcategory_id":"3","name":"Funda Galaxy S24 Ultra","price":"89000.00","size":"S24U","stock":"80","brand":"Spigen","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"10","subcategory_id":"4","name":"Camiseta Basica Algodon","price":"59000.00","size":"M","stock":"150","brand":"Koaj","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"11","subcategory_id":"4","name":"Camiseta Polo Classic","price":"129000.00","size":"L","stock":"90","brand":"Lacoste","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"12","subcategory_id":"4","name":"Camiseta Oversize Urban","price":"79000.00","size":"XL","stock":"120","brand":"Pull&Bear","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"13","subcategory_id":"5","name":"Jean Slim Fit","price":"159000.00","size":"32","stock":"70","brand":"Levis","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"14","subcategory_id":"5","name":"Pantalon Chino Beige","price":"119000.00","size":"30","stock":"85","brand":"Dockers","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"15","subcategory_id":"5","name":"Jean Mom Fit","price":"139000.00","size":"28","stock":"60","brand":"Zara","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"16","subcategory_id":"6","name":"Air Force 1 Low","price":"459000.00","size":"42","stock":"35","brand":"Nike","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"17","subcategory_id":"6","name":"Stan Smith","price":"389000.00","size":"40","stock":"40","brand":"Adidas","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"18","subcategory_id":"6","name":"Old Skool Classic","price":"329000.00","size":"41","stock":"50","brand":"Vans","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"19","subcategory_id":"7","name":"Licuadora 700W","price":"249000.00","size":"1.5L","stock":"45","brand":"Oster","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"20","subcategory_id":"7","name":"Sarten Antiadherente","price":"89000.00","size":"28cm","stock":"60","brand":"T-Fal","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"21","subcategory_id":"7","name":"Juego Cuchillos x6","price":"199000.00","size":"6pzs","stock":"30","brand":"Tramontina","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"22","subcategory_id":"8","name":"Lampara LED Mesa","price":"149000.00","size":"35cm","stock":"25","brand":"Philips","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"23","subcategory_id":"8","name":"Cojin Decorativo","price":"49000.00","size":"45x45","stock":"80","brand":"Nordic","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"24","subcategory_id":"9","name":"Kit Mancuernas 20kg","price":"289000.00","size":"20kg","stock":"20","brand":"Bodytone","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"25","subcategory_id":"9","name":"Banda Elastica Set x5","price":"69000.00","size":"Multi","stock":"100","brand":"TheraBand","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"26","subcategory_id":"10","name":"Camiseta DRI-FIT","price":"159000.00","size":"M","stock":"60","brand":"Nike","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"27","subcategory_id":"10","name":"Short Running","price":"119000.00","size":"L","stock":"75","brand":"Adidas","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"}
+{"id":"1","subcategory_id":"1","name":"Nike Air Zoom Pegasus 41","price":"489000.00","size":"42","stock":"30","brand":"Nike","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"2","subcategory_id":"1","name":"Adidas Ultraboost 24","price":"519000.00","size":"41","stock":"25","brand":"Adidas","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"3","subcategory_id":"1","name":"Brooks Ghost 16","price":"429000.00","size":"40","stock":"20","brand":"Brooks","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"4","subcategory_id":"1","name":"ASICS Gel-Nimbus 26","price":"549000.00","size":"43","stock":"18","brand":"ASICS","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"5","subcategory_id":"2","name":"Nike Air Jordan 1 Retro High OG","price":"699000.00","size":"42","stock":"22","brand":"Nike","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"6","subcategory_id":"2","name":"Adidas D.O.N. Issue 6","price":"399000.00","size":"41","stock":"28","brand":"Adidas","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"7","subcategory_id":"2","name":"Under Armour Curry 12","price":"459000.00","size":"43","stock":"15","brand":"Under Armour","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"8","subcategory_id":"3","name":"Nike Mercurial Superfly 10 Elite FG","price":"649000.00","size":"40","stock":"20","brand":"Nike","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"9","subcategory_id":"3","name":"Adidas Predator Accuracy.1 FG","price":"569000.00","size":"41","stock":"18","brand":"Adidas","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"10","subcategory_id":"3","name":"Puma Future 7 Ultimate FG","price":"489000.00","size":"42","stock":"25","brand":"Puma","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"11","subcategory_id":"4","name":"Nike Air Force 1 Low","price":"459000.00","size":"42","stock":"35","brand":"Nike","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"12","subcategory_id":"4","name":"Adidas Stan Smith","price":"389000.00","size":"40","stock":"40","brand":"Adidas","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"13","subcategory_id":"4","name":"Vans Old Skool Classic","price":"329000.00","size":"41","stock":"50","brand":"Vans","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"14","subcategory_id":"4","name":"New Balance 574 Core","price":"359000.00","size":"42","stock":"45","brand":"New Balance","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"15","subcategory_id":"5","name":"Converse Chuck Taylor All Star","price":"279000.00","size":"41","stock":"60","brand":"Converse","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"16","subcategory_id":"5","name":"Nike Cortez","price":"319000.00","size":"40","stock":"35","brand":"Nike","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"17","subcategory_id":"5","name":"Adidas Gazelle","price":"369000.00","size":"42","stock":"40","brand":"Adidas","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"18","subcategory_id":"6","name":"Merrell Moab 3 Mid WP","price":"479000.00","size":"42","stock":"22","brand":"Merrell","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"19","subcategory_id":"6","name":"Salomon X Ultra 4 GTX","price":"589000.00","size":"43","stock":"15","brand":"Salomon","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"20","subcategory_id":"6","name":"Columbia Newton Ridge Plus II WP","price":"399000.00","size":"41","stock":"30","brand":"Columbia","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"21","subcategory_id":"6","name":"Keen Targhee III Mid WP","price":"529000.00","size":"42","stock":"18","brand":"Keen","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"22","subcategory_id":"7","name":"Salomon Speedcross 6","price":"549000.00","size":"42","stock":"25","brand":"Salomon","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"23","subcategory_id":"7","name":"Hoka Speedgoat 5","price":"619000.00","size":"41","stock":"20","brand":"Hoka","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"24","subcategory_id":"7","name":"Brooks Cascadia 17","price":"499000.00","size":"40","stock":"22","brand":"Brooks","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"25","subcategory_id":"7","name":"Nike Wildhorse 8","price":"439000.00","size":"43","stock":"30","brand":"Nike","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"}
 ]
 }
 ,{"type":"table","name":"shipment","database":"kn_store_test","data":
 [
-{"id":"1","order_id":"1","tracking_number":"KN-2026-00001","shipping_method":"Servientrega","status":"DELIVERED","shipped_at":"2026-01-16 08:00:00","delivered_at":"2026-01-19 14:30:00","created_at":"2026-03-26 20:58:50"},
-{"id":"2","order_id":"2","tracking_number":"KN-2026-00002","shipping_method":"Interrapidisimo","status":"SHIPPED","shipped_at":"2026-02-21 10:00:00","delivered_at":null,"created_at":"2026-03-26 20:58:50"},
-{"id":"3","order_id":"3","tracking_number":null,"shipping_method":"Coordinadora","status":"PENDING","shipped_at":null,"delivered_at":null,"created_at":"2026-03-26 20:58:50"},
-{"id":"4","order_id":"7","tracking_number":"KN-2026-00003","shipping_method":"Contra Entrega","status":"DELIVERED","shipped_at":"2026-01-29 09:00:00","delivered_at":"2026-01-30 14:00:00","created_at":"2026-03-26 20:58:50"}
+{"id":"1","order_id":"1","tracking_number":"KN-2026-00001","shipping_method":"Servientrega","status":"DELIVERED","shipped_at":"2026-01-16 08:00:00","delivered_at":"2026-01-19 14:30:00","created_at":"2026-03-28 00:00:00"},
+{"id":"2","order_id":"2","tracking_number":"KN-2026-00002","shipping_method":"Interrapidisimo","status":"SHIPPED","shipped_at":"2026-02-21 10:00:00","delivered_at":null,"created_at":"2026-03-28 00:00:00"},
+{"id":"3","order_id":"3","tracking_number":null,"shipping_method":"Coordinadora","status":"PENDING","shipped_at":null,"delivered_at":null,"created_at":"2026-03-28 00:00:00"},
+{"id":"4","order_id":"7","tracking_number":"KN-2026-00003","shipping_method":"Contra Entrega","status":"DELIVERED","shipped_at":"2026-01-29 09:00:00","delivered_at":"2026-01-30 14:00:00","created_at":"2026-03-28 00:00:00"}
 ]
 }
 ,{"type":"table","name":"subcategory","database":"kn_store_test","data":
 [
-{"id":"1","category_id":"1","name":"Smartphones","description":"Telefonos inteligentes","active":"1","created_at":"2026-03-26 20:58:50"},
-{"id":"2","category_id":"1","name":"Audifonos","description":"Audifonos inalambricos y con cable","active":"1","created_at":"2026-03-26 20:58:50"},
-{"id":"3","category_id":"1","name":"Accesorios Tech","description":"Cargadores, cables, fundas, protectores","active":"1","created_at":"2026-03-26 20:58:50"},
-{"id":"4","category_id":"2","name":"Camisetas","description":"Camisetas casuales y formales","active":"1","created_at":"2026-03-26 20:58:50"},
-{"id":"5","category_id":"2","name":"Pantalones","description":"Jeans, chinos, formales","active":"1","created_at":"2026-03-26 20:58:50"},
-{"id":"6","category_id":"2","name":"Calzado","description":"Zapatos, tenis, botas","active":"1","created_at":"2026-03-26 20:58:50"},
-{"id":"7","category_id":"3","name":"Cocina","description":"Utensilios y electrodomesticos de cocina","active":"1","created_at":"2026-03-26 20:58:50"},
-{"id":"8","category_id":"3","name":"Decoracion","description":"Articulos decorativos para el hogar","active":"1","created_at":"2026-03-26 20:58:50"},
-{"id":"9","category_id":"4","name":"Fitness","description":"Pesas, bandas, accesorios de gimnasio","active":"1","created_at":"2026-03-26 20:58:50"},
-{"id":"10","category_id":"4","name":"Ropa Deportiva","description":"Camisetas, shorts, licras deportivas","active":"1","created_at":"2026-03-26 20:58:50"}
+{"id":"1","category_id":"1","name":"Running","description":"Zapatillas para correr en superficie plana y pista","active":"1","created_at":"2026-03-28 00:00:00"},
+{"id":"2","category_id":"1","name":"Basketball","description":"Calzado de cancha con soporte de tobillo y amortiguacion","active":"1","created_at":"2026-03-28 00:00:00"},
+{"id":"3","category_id":"1","name":"Futbol","description":"Guayos y tacos para cesped natural y sintetico","active":"1","created_at":"2026-03-28 00:00:00"},
+{"id":"4","category_id":"2","name":"Sneakers","description":"Tenis lifestyle de uso diario con estilo urbano","active":"1","created_at":"2026-03-28 00:00:00"},
+{"id":"5","category_id":"2","name":"Clasicos","description":"Modelos iconicos y clasicos de coleccion atemporal","active":"1","created_at":"2026-03-28 00:00:00"},
+{"id":"6","category_id":"3","name":"Senderismo","description":"Botas y zapatillas para trekking y montaña","active":"1","created_at":"2026-03-28 00:00:00"},
+{"id":"7","category_id":"3","name":"Trail Running","description":"Zapatillas para correr en terreno accidentado y senderos","active":"1","created_at":"2026-03-28 00:00:00"}
 ]
 }
 ,{"type":"table","name":"users","database":"kn_store_test","data":
 [
-{"id":"1","email":"admin@knstore.com","password":"a36aef5a11c4073fbe60314fc9df530a9d5f986533594d1f5190742ff9e0e408","name":"Carlos","last_name":"Ramirez","role":"ADMIN","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"2","email":"mgr.lopez@knstore.com","password":"24f9c525102748b0e216e90293937cf0097db13ee2b64c4079e512584d355ac4","name":"Andrea","last_name":"Lopez","role":"MANAGER","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"3","email":"mgr.torres@knstore.com","password":"c2c82a30d0b3504820fbf75506c85519522d91b264e5584278dee257ed576aa2","name":"Felipe","last_name":"Torres","role":"MANAGER","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"4","email":"juan.perez@gmail.com","password":"c6b5665cc0ff9d462cff0ed07ebec248325a48898e53fcfc45fb0743e606d17e","name":"Juan","last_name":"Perez","role":"CLIENT","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"5","email":"maria.gomez@gmail.com","password":"63f3f3d1aa9a7dc73b585e3dc7980be5c67f61351596441b93b86b91a77e6639","name":"Maria","last_name":"Gomez","role":"CLIENT","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"6","email":"pedro.diaz@hotmail.com","password":"8cdd38d1209d8d7883012753cfc45e11a48927c708e3a8a26bbe9543eda360a7","name":"Pedro","last_name":"Diaz","role":"CLIENT","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"7","email":"lucia.santos@yahoo.com","password":"7468199a68f65cc70515b9fa2a95a7bcedb03e0f1cf47fd52e78e0f014303818","name":"Lucia","last_name":"Santos","role":"CLIENT","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"},
-{"id":"8","email":"andres.ruiz@gmail.com","password":"867c752502de76891624c19b471cba8f923359429833e7d59b27460617af80ba","name":"Andres","last_name":"Ruiz","role":"CLIENT","active":"1","created_at":"2026-03-26 20:58:50","updated_at":"2026-03-26 20:58:50"}
+{"id":"1","email":"admin@knstore.com","password":"a36aef5a11c4073fbe60314fc9df530a9d5f986533594d1f5190742ff9e0e408","name":"Carlos","last_name":"Ramirez","role":"ADMIN","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"2","email":"mgr.lopez@knstore.com","password":"24f9c525102748b0e216e90293937cf0097db13ee2b64c4079e512584d355ac4","name":"Andrea","last_name":"Lopez","role":"MANAGER","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"3","email":"mgr.torres@knstore.com","password":"c2c82a30d0b3504820fbf75506c85519522d91b264e5584278dee257ed576aa2","name":"Felipe","last_name":"Torres","role":"MANAGER","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"4","email":"juan.perez@gmail.com","password":"c6b5665cc0ff9d462cff0ed07ebec248325a48898e53fcfc45fb0743e606d17e","name":"Juan","last_name":"Perez","role":"CLIENT","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"5","email":"maria.gomez@gmail.com","password":"63f3f3d1aa9a7dc73b585e3dc7980be5c67f61351596441b93b86b91a77e6639","name":"Maria","last_name":"Gomez","role":"CLIENT","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"6","email":"pedro.diaz@hotmail.com","password":"8cdd38d1209d8d7883012753cfc45e11a48927c708e3a8a26bbe9543eda360a7","name":"Pedro","last_name":"Diaz","role":"CLIENT","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"7","email":"lucia.santos@yahoo.com","password":"7468199a68f65cc70515b9fa2a95a7bcedb03e0f1cf47fd52e78e0f014303818","name":"Lucia","last_name":"Santos","role":"CLIENT","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"},
+{"id":"8","email":"andres.ruiz@gmail.com","password":"867c752502de76891624c19b471cba8f923359429833e7d59b27460617af80ba","name":"Andres","last_name":"Ruiz","role":"CLIENT","active":"1","created_at":"2026-03-28 00:00:00","updated_at":"2026-03-28 00:00:00"}
 ]
 }
 ]

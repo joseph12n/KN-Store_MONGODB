@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /c/Users/josep/OneDrive/Documentos/kn_store_test_mongo -not -path */node_modules* -type f)"
+    ]
+  }
+}
